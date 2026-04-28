@@ -103,6 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="demo-actions">
           <button class="demo-btn" type="submit">Add Employee</button>
           <a class="demo-link" href="read_employees.php">View All Records &rarr;</a>
+          <a class="demo-link" href="update_delete_employee.php">Edit / Delete &rarr;</a>
         </div>
       </form>
 

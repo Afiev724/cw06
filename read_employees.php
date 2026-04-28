@@ -24,6 +24,8 @@ $result = $conn->query(
 
       <div class="demo-actions" style="margin-top:0; margin-bottom:.75rem;">
         <a class="demo-link" href="employee_demo.php">&larr; Add New Employee</a>
+        &nbsp;&nbsp;
+        <a class="demo-link" href="update_delete_employee.php">Edit / Delete</a>
       </div>
 
       <?php if ($result && $result->num_rows > 0): ?>
